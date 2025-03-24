@@ -79,3 +79,52 @@ SELECT COUNT(*) FROM Movie_Genre;
 
 -- Contar calificaciones
 SELECT COUNT(*) FROM Rating;
+
+
+
+
+
+# PASOS PARA EJECUTAR EL PROYECTO FASTAPI
+
+### Clonar el proyecto y moverte a la carpeta del proyecto
+
+### Activar el entorno virtual (opcional pero recomendado)
+
+source env/bin/activate     # Linux / Mac
+env\Scripts\activate        # Windows
+
+
+---
+
+### Instalar dependencias desde el `requirements.txt`
+```
+pip install -r requirements.txt
+```
+
+---
+
+---
+
+### Ejecutar el servidor de desarrollo con Uvicorn
+
+```
+uvicorn main:app --reload
+```
+
+---
+
+### Probar que la API esté funcionando
+
+Visita en tu navegador o Postman:
+
+```
+http://127.0.0.1:8000/
+```
+
+---
+
+### Acceder a la documentación interactiva de FastAPI
+- Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- Redoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+
+---
