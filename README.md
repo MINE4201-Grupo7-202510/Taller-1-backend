@@ -90,18 +90,18 @@ SELECT COUNT(*) FROM Rating;
 
 ### Activar el entorno virtual (opcional pero recomendado)
 
+```
 source env/bin/activate     # Linux / Mac
 env\Scripts\activate        # Windows
-
+```
 
 ---
 
 ### Instalar dependencias desde el `requirements.txt`
+
 ```
 pip install -r requirements.txt
 ```
-
----
 
 ---
 
@@ -126,5 +126,3 @@ http://127.0.0.1:8000/
 ### Acceder a la documentación interactiva de FastAPI
 - Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - Redoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
-
----
